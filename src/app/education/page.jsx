@@ -31,10 +31,6 @@ function page() {
         <div>
             <Navbar education title = "Education" description = "วิธีลดการปล่อยมลพิษ" image = "/chiangmai_1.jpg" w = {1500} h = {986}/>
             <Card contents = {contents} h = "h-lg"/>
-            <div className = "p-4">
-                <div className = "container mx-auto justify-self-center h-full flex flex-col justify-center items-center">
-                </div>
-            </div>
         </div>
     )
 }
