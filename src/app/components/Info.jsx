@@ -19,7 +19,7 @@ function Info({ content, image, extension, w ,h }) {
                         ))}
                     </div>
                 </div>
-                    <Image src = {`/${image}.${extension}`} unoptimized width = {w} height = {h} className = "object-contain w-lg max-lg:w-full rounded-2xl shadow-md" alt = {image}/>
+                <Image src = {`/${image}.${extension}`} unoptimized width = {w} height = {h} className = "object-contain w-lg max-lg:w-full rounded-2xl shadow-md" alt = {image}/>
             </div>
         </div>
     )
